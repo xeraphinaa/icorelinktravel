@@ -1,0 +1,8 @@
+# Icorelink Travel & Tours - Server Configuration
+# 1. Prioritize index.php for local development so full dynamic PHP/MySQL continues working seamlessly
+DirectoryIndex index.php index.html index.htm
+
+# 2. Enable URL Rewrite if mod_rewrite is active
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+</IfModule>
